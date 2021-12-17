@@ -18,7 +18,7 @@ import (
 
 	"strings"
 
-	"github.com/twilio/twilio-go/client"
+	"github.com/NellybettIrahola/twilio-go/client"
 )
 
 // Delete a specific Interaction.

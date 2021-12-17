@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	twilio "github.com/twilio/twilio-go/client"
+	twilio "github.com/NellybettIrahola/twilio-go/client"
 )
 
 var mockServer *httptest.Server

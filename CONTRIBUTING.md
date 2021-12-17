@@ -144,5 +144,5 @@ you are working:
 
 
 [docs-link]: https://www.twilio.com/docs/libraries/go
-[issue-link]: https://github.com/twilio/twilio-go/issues/new
-[github]: https://github.com/twilio/twilio-go
+[issue-link]: https://github.com/NellybettIrahola/twilio-go/issues/new
+[github]: https://github.com/NellybettIrahola/twilio-go

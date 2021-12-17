@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	baseJwt "github.com/twilio/twilio-go/client/jwt"
-	. "github.com/twilio/twilio-go/client/jwt/util"
+	baseJwt "github.com/NellybettIrahola/twilio-go/client/jwt"
+	. "github.com/NellybettIrahola/twilio-go/client/jwt/util"
 )
 
 type CapabilityToken struct {

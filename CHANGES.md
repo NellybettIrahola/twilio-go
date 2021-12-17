@@ -3,10 +3,10 @@ twilio-go changelog
 [2021-12-15] Version 0.19.0
 ---------------------------
 **Library - Feature**
-- [PR #129](https://github.com/twilio/twilio-go/pull/129): run tests before deploying. Thanks to [@childish-sambino](https://github.com/childish-sambino)!
+- [PR #129](https://github.com/NellybettIrahola/twilio-go/pull/129): run tests before deploying. Thanks to [@childish-sambino](https://github.com/childish-sambino)!
 
 **Library - Docs**
-- [PR #131](https://github.com/twilio/twilio-go/pull/131): fix whitespace issue in handling exceptions example. Thanks to [@EmFord](https://github.com/EmFord)!
+- [PR #131](https://github.com/NellybettIrahola/twilio-go/pull/131): fix whitespace issue in handling exceptions example. Thanks to [@EmFord](https://github.com/EmFord)!
 
 **Api**
 - Add optional boolean send_as_mms parameter to the create action of Message resource **(breaking change)**
@@ -52,11 +52,11 @@ twilio-go changelog
 [2021-11-17] Version 0.18.1
 ---------------------------
 **Library - Chore**
-- [PR #127](https://github.com/twilio/twilio-go/pull/127): consolidate workflows. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
-- [PR #126](https://github.com/twilio/twilio-go/pull/126): add event type cluster test. Thanks to [@JenniferMah](https://github.com/JenniferMah)!
+- [PR #127](https://github.com/NellybettIrahola/twilio-go/pull/127): consolidate workflows. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
+- [PR #126](https://github.com/NellybettIrahola/twilio-go/pull/126): add event type cluster test. Thanks to [@JenniferMah](https://github.com/JenniferMah)!
 
 **Library - Fix**
-- [PR #124](https://github.com/twilio/twilio-go/pull/124): git log retrieval issues. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
+- [PR #124](https://github.com/NellybettIrahola/twilio-go/pull/124): git log retrieval issues. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
 
 **Frontline**
 - Added `is_available` to User's resource
@@ -73,10 +73,10 @@ twilio-go changelog
 [2021-11-03] Version 0.18.0
 ---------------------------
 **Library - Fix**
-- [PR #125](https://github.com/twilio/twilio-go/pull/125): remove cluster test. Thanks to [@JenniferMah](https://github.com/JenniferMah)!
+- [PR #125](https://github.com/NellybettIrahola/twilio-go/pull/125): remove cluster test. Thanks to [@JenniferMah](https://github.com/JenniferMah)!
 
 **Library - Chore**
-- [PR #123](https://github.com/twilio/twilio-go/pull/123): migrate to github actions from travis ci. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
+- [PR #123](https://github.com/NellybettIrahola/twilio-go/pull/123): migrate to github actions from travis ci. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
 
 **Api**
 - Updated `media_url` property to be treated as PII
@@ -98,7 +98,7 @@ twilio-go changelog
 [2021-10-18] Version 0.17.0
 ---------------------------
 **Library - Feature**
-- [PR #122](https://github.com/twilio/twilio-go/pull/122): Add PlaybackGrant. Thanks to [@miguelgrinberg](https://github.com/miguelgrinberg)!
+- [PR #122](https://github.com/NellybettIrahola/twilio-go/pull/122): Add PlaybackGrant. Thanks to [@miguelgrinberg](https://github.com/miguelgrinberg)!
 
 **Api**
 - Corrected enum values for `emergency_address_status` values in `/IncomingPhoneNumbers` response. **(breaking change)**
@@ -116,7 +116,7 @@ twilio-go changelog
 [2021-10-06] Version 0.16.0
 ---------------------------
 **Library - Fix**
-- [PR #121](https://github.com/twilio/twilio-go/pull/121): parameter casing with numbers. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
+- [PR #121](https://github.com/NellybettIrahola/twilio-go/pull/121): parameter casing with numbers. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
 
 **Api**
 - Add `emergency_address_status` attribute to `/IncomingPhoneNumbers` response.
@@ -152,10 +152,10 @@ twilio-go changelog
 [2021-09-22] Version 0.15.0
 ---------------------------
 **Library - Feature**
-- [PR #116](https://github.com/twilio/twilio-go/pull/116): add jwt token signing and verification logic. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
+- [PR #116](https://github.com/NellybettIrahola/twilio-go/pull/116): add jwt token signing and verification logic. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
 
 **Library - Test**
-- [PR #117](https://github.com/twilio/twilio-go/pull/117): increase Client test coverage. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
+- [PR #117](https://github.com/NellybettIrahola/twilio-go/pull/117): increase Client test coverage. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
 
 **Events**
 - Add segment sink
@@ -169,7 +169,7 @@ twilio-go changelog
 [2021-09-08] Version 0.14.2
 ---------------------------
 **Library - Fix**
-- [PR #115](https://github.com/twilio/twilio-go/pull/115): typo in page function. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
+- [PR #115](https://github.com/NellybettIrahola/twilio-go/pull/115): typo in page function. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
 
 **Api**
 - Revert adding `siprec` resource
@@ -212,11 +212,11 @@ twilio-go changelog
 [2021-08-11] Version 0.14.0
 ---------------------------
 **Library - Fix**
-- [PR #110](https://github.com/twilio/twilio-go/pull/110): pagination with next_page_url. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
+- [PR #110](https://github.com/NellybettIrahola/twilio-go/pull/110): pagination with next_page_url. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
 
 **Library - Chore**
-- [PR #108](https://github.com/twilio/twilio-go/pull/108): shorten generated model names. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
-- [PR #106](https://github.com/twilio/twilio-go/pull/106): integrate with sonarcloud. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
+- [PR #108](https://github.com/NellybettIrahola/twilio-go/pull/108): shorten generated model names. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
+- [PR #106](https://github.com/NellybettIrahola/twilio-go/pull/106): integrate with sonarcloud. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
 
 **Api**
 - Corrected the `price`, `call_sid_to_coach`, and `uri` data types for Conference, Participant, and Recording **(breaking change)**
@@ -242,24 +242,24 @@ twilio-go changelog
 [2021-07-28] Version 0.13.0
 ---------------------------
 **Library - Feature**
-- [PR #105](https://github.com/twilio/twilio-go/pull/105): publish go docker image. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
-- [PR #92](https://github.com/twilio/twilio-go/pull/92): add pagination. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)! **(breaking change)**
-- [PR #100](https://github.com/twilio/twilio-go/pull/100): add cluster testing. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
-- [PR #96](https://github.com/twilio/twilio-go/pull/96): Twilio Signature Validation. Thanks to [@pmcanseco](https://github.com/pmcanseco)!
-- [PR #95](https://github.com/twilio/twilio-go/pull/95): support env var loading of API credentials. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
+- [PR #105](https://github.com/NellybettIrahola/twilio-go/pull/105): publish go docker image. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
+- [PR #92](https://github.com/NellybettIrahola/twilio-go/pull/92): add pagination. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)! **(breaking change)**
+- [PR #100](https://github.com/NellybettIrahola/twilio-go/pull/100): add cluster testing. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
+- [PR #96](https://github.com/NellybettIrahola/twilio-go/pull/96): Twilio Signature Validation. Thanks to [@pmcanseco](https://github.com/pmcanseco)!
+- [PR #95](https://github.com/NellybettIrahola/twilio-go/pull/95): support env var loading of API credentials. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
 
 **Library - Test**
-- [PR #103](https://github.com/twilio/twilio-go/pull/103): add edge case tests. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
+- [PR #103](https://github.com/NellybettIrahola/twilio-go/pull/103): add edge case tests. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
 
 **Library - Fix**
-- [PR #102](https://github.com/twilio/twilio-go/pull/102): list of stringified json marshaling. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
-- [PR #99](https://github.com/twilio/twilio-go/pull/99): add nil check. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
+- [PR #102](https://github.com/NellybettIrahola/twilio-go/pull/102): list of stringified json marshaling. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
+- [PR #99](https://github.com/NellybettIrahola/twilio-go/pull/99): add nil check. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
 
 **Library - Chore**
-- [PR #101](https://github.com/twilio/twilio-go/pull/101): refactor list params to include 'limit'. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
+- [PR #101](https://github.com/NellybettIrahola/twilio-go/pull/101): refactor list params to include 'limit'. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
 
 **Library - Docs**
-- [PR #97](https://github.com/twilio/twilio-go/pull/97): add pagination docs. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
+- [PR #97](https://github.com/NellybettIrahola/twilio-go/pull/97): add pagination docs. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
 
 **Conversations**
 - Expose ParticipantConversations resource
@@ -274,7 +274,7 @@ twilio-go changelog
 [2021-07-14] Version 0.12.0
 ---------------------------
 **Library - Fix**
-- [PR #93](https://github.com/twilio/twilio-go/pull/93): list of stringified json marshaling. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
+- [PR #93](https://github.com/NellybettIrahola/twilio-go/pull/93): list of stringified json marshaling. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
 
 **Conversations**
 - Changed `last_read_message_index` and `unread_messages_count` type in User Conversation's resource **(breaking change)**
@@ -287,19 +287,19 @@ twilio-go changelog
 [2021-06-30] Version 0.11.0
 ---------------------------
 **Library - Fix**
-- [PR #91](https://github.com/twilio/twilio-go/pull/91): revert client submodule creation. Thanks to [@childish-sambino](https://github.com/childish-sambino)!
+- [PR #91](https://github.com/NellybettIrahola/twilio-go/pull/91): revert client submodule creation. Thanks to [@childish-sambino](https://github.com/childish-sambino)!
 
 **Library - Feature**
-- [PR #90](https://github.com/twilio/twilio-go/pull/90): moving client to submodule. Thanks to [@childish-sambino](https://github.com/childish-sambino)!
+- [PR #90](https://github.com/NellybettIrahola/twilio-go/pull/90): moving client to submodule. Thanks to [@childish-sambino](https://github.com/childish-sambino)!
 
 **Library - Chore**
-- [PR #88](https://github.com/twilio/twilio-go/pull/88): split resources into separate files. Thanks to [@childish-sambino](https://github.com/childish-sambino)!
-- [PR #87](https://github.com/twilio/twilio-go/pull/87): upgrade openapi-generator to version 5.1.1. Thanks to [@childish-sambino](https://github.com/childish-sambino)!
-- [PR #86](https://github.com/twilio/twilio-go/pull/86): use 'int' for integer types. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
+- [PR #88](https://github.com/NellybettIrahola/twilio-go/pull/88): split resources into separate files. Thanks to [@childish-sambino](https://github.com/childish-sambino)!
+- [PR #87](https://github.com/NellybettIrahola/twilio-go/pull/87): upgrade openapi-generator to version 5.1.1. Thanks to [@childish-sambino](https://github.com/childish-sambino)!
+- [PR #86](https://github.com/NellybettIrahola/twilio-go/pull/86): use 'int' for integer types. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
 
 **Library - Docs**
-- [PR #89](https://github.com/twilio/twilio-go/pull/89): particulate -> participate, and minor formatting. Thanks to [@stern-shawn](https://github.com/stern-shawn)!
-- [PR #85](https://github.com/twilio/twilio-go/pull/85): remove path params docs for operations without them. Thanks to [@childish-sambino](https://github.com/childish-sambino)!
+- [PR #89](https://github.com/NellybettIrahola/twilio-go/pull/89): particulate -> participate, and minor formatting. Thanks to [@stern-shawn](https://github.com/stern-shawn)!
+- [PR #85](https://github.com/NellybettIrahola/twilio-go/pull/85): remove path params docs for operations without them. Thanks to [@childish-sambino](https://github.com/childish-sambino)!
 
 **Conversations**
 - Read-only Conversation Email Binding property `binding`
@@ -317,7 +317,7 @@ twilio-go changelog
 [2021-06-16] Version 0.10.0
 ---------------------------
 **Library - Fix**
-- [PR #82](https://github.com/twilio/twilio-go/pull/82): array type template. Thanks to [@shamigor](https://github.com/shamigor)!
+- [PR #82](https://github.com/NellybettIrahola/twilio-go/pull/82): array type template. Thanks to [@shamigor](https://github.com/shamigor)!
 
 **Api**
 - Update `status` enum for Messages to include 'canceled'
@@ -330,10 +330,10 @@ twilio-go changelog
 [2021-06-02] Version 0.9.0
 --------------------------
 **Library - Docs**
-- [PR #81](https://github.com/twilio/twilio-go/pull/81): add standalone usage example. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
+- [PR #81](https://github.com/NellybettIrahola/twilio-go/pull/81): add standalone usage example. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
 
 **Library - Feature**
-- [PR #80](https://github.com/twilio/twilio-go/pull/80): add RequestHandler for custom client support. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
+- [PR #80](https://github.com/NellybettIrahola/twilio-go/pull/80): add RequestHandler for custom client support. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
 
 **Events**
 - join Sinks and Subscriptions service
@@ -346,18 +346,18 @@ twilio-go changelog
 [2021-05-19] Version 0.8.0
 --------------------------
 **Library - Chore**
-- [PR #79](https://github.com/twilio/twilio-go/pull/79): rename Ip_MessagingVx to IpMessagingVx. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)! **(breaking change)**
-- [PR #77](https://github.com/twilio/twilio-go/pull/77): remove the unused client pointers. Thanks to [@childish-sambino](https://github.com/childish-sambino)!
-- [PR #76](https://github.com/twilio/twilio-go/pull/76): sync the v2010 API with latest generator changes. Thanks to [@childish-sambino](https://github.com/childish-sambino)!
-- [PR #75](https://github.com/twilio/twilio-go/pull/75): install pre-commit hooks on install. Thanks to [@childish-sambino](https://github.com/childish-sambino)!
-- [PR #73](https://github.com/twilio/twilio-go/pull/73): move contents of 'twilio' folder to the top-level. Thanks to [@childish-sambino](https://github.com/childish-sambino)! **(breaking change)**
+- [PR #79](https://github.com/NellybettIrahola/twilio-go/pull/79): rename Ip_MessagingVx to IpMessagingVx. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)! **(breaking change)**
+- [PR #77](https://github.com/NellybettIrahola/twilio-go/pull/77): remove the unused client pointers. Thanks to [@childish-sambino](https://github.com/childish-sambino)!
+- [PR #76](https://github.com/NellybettIrahola/twilio-go/pull/76): sync the v2010 API with latest generator changes. Thanks to [@childish-sambino](https://github.com/childish-sambino)!
+- [PR #75](https://github.com/NellybettIrahola/twilio-go/pull/75): install pre-commit hooks on install. Thanks to [@childish-sambino](https://github.com/childish-sambino)!
+- [PR #73](https://github.com/NellybettIrahola/twilio-go/pull/73): move contents of 'twilio' folder to the top-level. Thanks to [@childish-sambino](https://github.com/childish-sambino)! **(breaking change)**
 
 **Library - Docs**
-- [PR #78](https://github.com/twilio/twilio-go/pull/78): update formatting for godocs. Thanks to [@thinkingserious](https://github.com/thinkingserious)!
+- [PR #78](https://github.com/NellybettIrahola/twilio-go/pull/78): update formatting for godocs. Thanks to [@thinkingserious](https://github.com/thinkingserious)!
 
 **Library - Feature**
-- [PR #74](https://github.com/twilio/twilio-go/pull/74): add param setters. Thanks to [@childish-sambino](https://github.com/childish-sambino)!
-- [PR #71](https://github.com/twilio/twilio-go/pull/71): add subaccount support for v2010 apis. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)! **(breaking change)**
+- [PR #74](https://github.com/NellybettIrahola/twilio-go/pull/74): add param setters. Thanks to [@childish-sambino](https://github.com/childish-sambino)!
+- [PR #71](https://github.com/NellybettIrahola/twilio-go/pull/71): add subaccount support for v2010 apis. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)! **(breaking change)**
 
 **Events**
 - add query param to return types filtered by Schema Id
@@ -380,12 +380,12 @@ twilio-go changelog
 [2021-05-05] Version 0.7.0
 --------------------------
 **Library - Chore**
-- [PR #70](https://github.com/twilio/twilio-go/pull/70): add check in BuildHost function. Thanks to [@JenniferMah](https://github.com/JenniferMah)!
-- [PR #69](https://github.com/twilio/twilio-go/pull/69): update docs links. Thanks to [@thinkingserious](https://github.com/thinkingserious)!
-- [PR #66](https://github.com/twilio/twilio-go/pull/66): remove redundant env var tests. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
+- [PR #70](https://github.com/NellybettIrahola/twilio-go/pull/70): add check in BuildHost function. Thanks to [@JenniferMah](https://github.com/JenniferMah)!
+- [PR #69](https://github.com/NellybettIrahola/twilio-go/pull/69): update docs links. Thanks to [@thinkingserious](https://github.com/thinkingserious)!
+- [PR #66](https://github.com/NellybettIrahola/twilio-go/pull/66): remove redundant env var tests. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
 
 **Library - Docs**
-- [PR #68](https://github.com/twilio/twilio-go/pull/68): update readme to include non v2010 examples. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
+- [PR #68](https://github.com/NellybettIrahola/twilio-go/pull/68): update readme to include non v2010 examples. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
 
 **Api**
 - Corrected the data types for feedback summary fields **(breaking change)**
@@ -408,18 +408,18 @@ twilio-go changelog
 [2021-04-21] Version 0.6.0
 --------------------------
 **Library - Feature**
-- [PR #62](https://github.com/twilio/twilio-go/pull/62): add support for region and edge values in url. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
+- [PR #62](https://github.com/NellybettIrahola/twilio-go/pull/62): add support for region and edge values in url. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
 
 **Library - Chore**
-- [PR #65](https://github.com/twilio/twilio-go/pull/65): update github action linter. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
-- [PR #60](https://github.com/twilio/twilio-go/pull/60): add user-agent header on all requests. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
+- [PR #65](https://github.com/NellybettIrahola/twilio-go/pull/65): update github action linter. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
+- [PR #60](https://github.com/NellybettIrahola/twilio-go/pull/60): add user-agent header on all requests. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
 
 **Library - Fix**
-- [PR #63](https://github.com/twilio/twilio-go/pull/63): parameter names in the request. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
-- [PR #59](https://github.com/twilio/twilio-go/pull/59): custom headers, cleanup docs, regenerate with the latest specs. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
+- [PR #63](https://github.com/NellybettIrahola/twilio-go/pull/63): parameter names in the request. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
+- [PR #59](https://github.com/NellybettIrahola/twilio-go/pull/59): custom headers, cleanup docs, regenerate with the latest specs. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
 
 **Library - Docs**
-- [PR #61](https://github.com/twilio/twilio-go/pull/61): Update readme for launch. Thanks to [@garethpaul](https://github.com/garethpaul)!
+- [PR #61](https://github.com/NellybettIrahola/twilio-go/pull/61): Update readme for launch. Thanks to [@garethpaul](https://github.com/garethpaul)!
 
 **Api**
 - Revert Update the conference participant create `from` and `to` param to be endpoint type for supporting client identifier and sip address
@@ -446,11 +446,11 @@ twilio-go changelog
 [2021-04-07] Version 0.5.0
 --------------------------
 **Library - Docs**
-- [PR #58](https://github.com/twilio/twilio-go/pull/58): update readme and documentation link. Thanks to [@JenniferMah](https://github.com/JenniferMah)!
+- [PR #58](https://github.com/NellybettIrahola/twilio-go/pull/58): update readme and documentation link. Thanks to [@JenniferMah](https://github.com/JenniferMah)!
 
 **Library - Chore**
-- [PR #56](https://github.com/twilio/twilio-go/pull/56): refactor client and regenerate with updated mustache. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
-- [PR #55](https://github.com/twilio/twilio-go/pull/55): regenerate after splitting model into separate components. Thanks to [@JenniferMah](https://github.com/JenniferMah)!
+- [PR #56](https://github.com/NellybettIrahola/twilio-go/pull/56): refactor client and regenerate with updated mustache. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
+- [PR #55](https://github.com/NellybettIrahola/twilio-go/pull/55): regenerate after splitting model into separate components. Thanks to [@JenniferMah](https://github.com/JenniferMah)!
 
 **Api**
 - Added `announcement` event to conference status callback events
@@ -507,16 +507,16 @@ twilio-go changelog
 [2021-03-16] Version 0.3.0
 --------------------------
 **Library - Docs**
-- [PR #54](https://github.com/twilio/twilio-go/pull/54): add property descriptions to docs. Thanks to [@JenniferMah](https://github.com/JenniferMah)!
-- [PR #51](https://github.com/twilio/twilio-go/pull/51): fix model reference in docs. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
-- [PR #48](https://github.com/twilio/twilio-go/pull/48): adding docs for enums and getting rid of 'description' column in model docs. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
-- [PR #50](https://github.com/twilio/twilio-go/pull/50): remove optional note for nullable properties. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
+- [PR #54](https://github.com/NellybettIrahola/twilio-go/pull/54): add property descriptions to docs. Thanks to [@JenniferMah](https://github.com/JenniferMah)!
+- [PR #51](https://github.com/NellybettIrahola/twilio-go/pull/51): fix model reference in docs. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
+- [PR #48](https://github.com/NellybettIrahola/twilio-go/pull/48): adding docs for enums and getting rid of 'description' column in model docs. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
+- [PR #50](https://github.com/NellybettIrahola/twilio-go/pull/50): remove optional note for nullable properties. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
 
 **Library - Feature**
-- [PR #53](https://github.com/twilio/twilio-go/pull/53): regenerating with openapi-generator 5.0.1. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
+- [PR #53](https://github.com/NellybettIrahola/twilio-go/pull/53): regenerating with openapi-generator 5.0.1. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
 
 **Library - Chore**
-- [PR #52](https://github.com/twilio/twilio-go/pull/52): add go linting as a pre commit hook. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
+- [PR #52](https://github.com/NellybettIrahola/twilio-go/pull/52): add go linting as a pre commit hook. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
 
 **Events**
 - Set maturity to beta
@@ -534,7 +534,7 @@ twilio-go changelog
 [2021-02-25] Version 0.2.0
 --------------------------
 **Library - Fix**
-- [PR #49](https://github.com/twilio/twilio-go/pull/49): re-add enum prefixes. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
+- [PR #49](https://github.com/NellybettIrahola/twilio-go/pull/49): re-add enum prefixes. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
 
 **Events**
 - Update description of types in the create sink resource

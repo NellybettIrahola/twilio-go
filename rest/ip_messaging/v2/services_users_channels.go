@@ -19,7 +19,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/twilio/twilio-go/client"
+	"github.com/NellybettIrahola/twilio-go/client"
 )
 
 func (c *ApiService) DeleteUserChannel(ServiceSid string, UserSid string, ChannelSid string) error {

@@ -1,8 +1,8 @@
 # twilio-go
 
-[![Tests](https://github.com/twilio/twilio-go/actions/workflows/test-and-deploy.yml/badge.svg)](https://github.com/twilio/twilio-go/actions/workflows/test-and-deploy.yml)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/twilio/twilio-go)](https://pkg.go.dev/github.com/twilio/twilio-go)
-[![Release](https://img.shields.io/github/release/twilio/twilio-go.svg)](https://github.com/twilio/twilio-go/releases/latest)
+[![Tests](https://github.com/NellybettIrahola/twilio-go/actions/workflows/test-and-deploy.yml/badge.svg)](https://github.com/NellybettIrahola/twilio-go/actions/workflows/test-and-deploy.yml)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/NellybettIrahola/twilio-go)](https://pkg.go.dev/github.com/NellybettIrahola/twilio-go)
+[![Release](https://img.shields.io/github/release/twilio/twilio-go.svg)](https://github.com/NellybettIrahola/twilio-go/releases/latest)
 [![Learn OSS Contribution in TwilioQuest](https://img.shields.io/static/v1?label=TwilioQuest&message=Learn%20to%20contribute%21&color=F22F46&labelColor=1f243c&style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAASFBMVEUAAAAZGRkcHBwjIyMoKCgAAABgYGBoaGiAgICMjIyzs7PJycnMzMzNzc3UoBfd3d3m5ubqrhfrMEDu7u739/f4vSb/3AD///9tbdyEAAAABXRSTlMAAAAAAMJrBrEAAAKoSURBVHgB7ZrRcuI6EESdyxXGYoNFvMD//+l2bSszRgyUYpFAsXOeiJGmj4NkuWx1Qeh+Ekl9DgEXOBwOx+Px5xyQhDykfgq4wG63MxxaR4ddIkg6Ul3g84vCIcjPBA5gmUMeXESrlukuoK33+33uID8TWeLAdOWsKpJYzwVMB7bOzYSGOciyUlXSn0/ABXTosJ1M1SbypZ4O4MbZuIDMU02PMbauhhHMHXbmebmALIiEbbbbbUrpF1gwE9kFfRNAJaP+FQEXCCTGyJ4ngDrjOFo3jEL5JdqjF/pueR4cCeCGgAtwmuRS6gDwaRiGvu+DMFwSBLTE3+jF8JyuV1okPZ+AC4hDFhCHyHQjdjPHUKFDlHSJkHQXMB3KpSwXNGJPcwwTdZiXlRN0gSp0zpWxNtM0beYE0nRH6QIbO7rawwXaBYz0j78gxjokDuv12gVeUuBD0MDi0OQCLvDaAho4juP1Q/jkAncXqIcCfd+7gAu4QLMACCLxpRsSuQh0igu0C9Svhi7weAGZg50L3IE3cai4IfkNZAC8dfdhsUD3CgKBVC9JE5ABAFzg4QL/taYPAAWrHdYcgfLaIgAXWJ7OV38n1LEF8tt2TH29E+QAoDoO5Ve/LtCQDmKM9kPbvCEBApK+IXzbcSJ0cIGF6e8gpcRhUDogWZ8JnaWjPXc/fNnBBUKRngiHgTUSivSzDRDgHZQOLvBQgf8rRt+VdBUUhwkU6VpJ+xcOwQUqZr+mR0kvBUgv6cB4+37hQAkXqE8PwGisGhJtN4xAHMzrsgvI7rccXqSvKh6jltGlrOHA3Xk1At3LC4QiPdX9/0ndHpGVvTjR4bZA1ypAKgVcwE5vx74ulwIugDt8e/X7JgfkucBMIAr26ndnB4UCLnDOqvteQsHlgX9N4A+c4cW3DXSPbwAAAABJRU5ErkJggg==)](https://twil.io/learn-open-source)
 
 ## Project Status
@@ -33,7 +33,7 @@ This library supports the following Go implementations:
 To use twilio-go in your project initialize go modules then run:
 
 ```bash
-go get github.com/twilio/twilio-go
+go get github.com/NellybettIrahola/twilio-go
 ```
 
 ## Getting Started
@@ -48,7 +48,7 @@ The Twilio `RestClient` needs your Twilio credentials. You can either pass these
 ```go
 package main
 
-import "github.com/twilio/twilio-go"
+import "github.com/NellybettIrahola/twilio-go"
 
 func main() {
     accountSid := "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
@@ -65,7 +65,7 @@ We suggest storing your credentials as environment variables. Why? You'll never 
 ```go
 package main
 
-import "github.com/twilio/twilio-go"
+import "github.com/NellybettIrahola/twilio-go"
 
 func main() {
     client := twilio.NewRestClient()
@@ -75,7 +75,7 @@ Make API calls with a SubAccount by setting the `AccountSid` field in the `twili
 ```go
 package main
 
-import "github.com/twilio/twilio-go"
+import "github.com/NellybettIrahola/twilio-go"
 
 func main() {
     subaccountSid := "ACYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY"
@@ -92,7 +92,7 @@ func main() {
 package main
 
 import (
-	"github.com/twilio/twilio-go"
+	"github.com/NellybettIrahola/twilio-go"
 	"os"
 )
 
@@ -115,8 +115,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/twilio/twilio-go"
-	openapi "github.com/twilio/twilio-go/rest/api/v2010"
+	"github.com/NellybettIrahola/twilio-go"
+	openapi "github.com/NellybettIrahola/twilio-go/rest/api/v2010"
 	"os"
 )
 
@@ -148,8 +148,8 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/twilio/twilio-go"
-	openapi "github.com/twilio/twilio-go/rest/api/v2010"
+	"github.com/NellybettIrahola/twilio-go"
+	openapi "github.com/NellybettIrahola/twilio-go/rest/api/v2010"
 	"os"
 )
 
@@ -184,8 +184,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/twilio/twilio-go"
-	openapi "github.com/twilio/twilio-go/rest/api/v2010"
+	"github.com/NellybettIrahola/twilio-go"
+	openapi "github.com/NellybettIrahola/twilio-go/rest/api/v2010"
 	"os"
 )
 
@@ -218,8 +218,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/twilio/twilio-go"
-	openapi "github.com/twilio/twilio-go/rest/serverless/v1"
+	"github.com/NellybettIrahola/twilio-go"
+	openapi "github.com/NellybettIrahola/twilio-go/rest/serverless/v1"
 )
 
 func main() {
@@ -250,8 +250,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/twilio/twilio-go"
-	openapi "github.com/twilio/twilio-go/rest/studio/v2"
+	"github.com/NellybettIrahola/twilio-go"
+	openapi "github.com/NellybettIrahola/twilio-go/rest/studio/v2"
 )
 
 func main() {
@@ -311,8 +311,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/twilio/twilio-go"
-	openapi "github.com/twilio/twilio-go/rest/api/v2010"
+	"github.com/NellybettIrahola/twilio-go"
+	openapi "github.com/NellybettIrahola/twilio-go/rest/api/v2010"
 	"os"
 )
 
@@ -344,8 +344,8 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/twilio/twilio-go"
-	openapi "github.com/twilio/twilio-go/rest/api/v2010"
+	"github.com/NellybettIrahola/twilio-go"
+	openapi "github.com/NellybettIrahola/twilio-go/rest/api/v2010"
 	"net/url"
 	"os"
 )
@@ -392,9 +392,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/twilio/twilio-go"
-	twilioclient "github.com/twilio/twilio-go/client"
-	openapi "github.com/twilio/twilio-go/rest/api/v2010"
+	"github.com/NellybettIrahola/twilio-go"
+	twilioclient "github.com/NellybettIrahola/twilio-go/client"
+	openapi "github.com/NellybettIrahola/twilio-go/rest/api/v2010"
 )
 
 func main() {
@@ -427,9 +427,9 @@ product services instead:
 package main
 
 import (
-	"github.com/twilio/twilio-go/client"
-	apiv2010 "github.com/twilio/twilio-go/rest/api/v2010"
-	serverless "github.com/twilio/twilio-go/rest/serverless/v1"
+	"github.com/NellybettIrahola/twilio-go/client"
+	apiv2010 "github.com/NellybettIrahola/twilio-go/rest/api/v2010"
+	serverless "github.com/NellybettIrahola/twilio-go/rest/serverless/v1"
 	"os"
 )
 
@@ -460,9 +460,9 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/twilio/twilio-go"
-	"github.com/twilio/twilio-go/client"
-	openapi "github.com/twilio/twilio-go/rest/api/v2010"
+	"github.com/NellybettIrahola/twilio-go"
+	"github.com/NellybettIrahola/twilio-go/client"
+	openapi "github.com/NellybettIrahola/twilio-go/rest/api/v2010"
 )
 
 type MyClient struct {
@@ -505,7 +505,7 @@ package main
 import 
 (
 	"os"
-	"github.com/twilio/twilio-go/client/jwt"
+	"github.com/NellybettIrahola/twilio-go/client/jwt"
 )
 
 accountSid := os.Getenv("TWILIO_ACCOUNT_SID")
@@ -540,7 +540,7 @@ package main
 import 
 (
 	"os"
-	"github.com/twilio/twilio-go/client/jwt/taskrouter"
+	"github.com/NellybettIrahola/twilio-go/client/jwt/taskrouter"
 )
 
 AccountSid := os.Getenv("TWILIO_ACCOUNT_SID")
@@ -586,7 +586,7 @@ To generate documentation, from the root directory:
 godoc -http=localhost:{port number}
 ```
 
-Then, navigate to `http://localhost:{port number}/pkg/github.com/twilio/twilio-go` in your local browser.
+Then, navigate to `http://localhost:{port number}/pkg/github.com/NellybettIrahola/twilio-go` in your local browser.
 
 Example:
 
@@ -594,7 +594,7 @@ Example:
 godoc -http=localhost:6060
 ```
 
-http://localhost:6060/pkg/github.com/twilio/twilio-go
+http://localhost:6060/pkg/github.com/NellybettIrahola/twilio-go
 
 ## Docker Image
 
@@ -608,4 +608,4 @@ If you've instead found a bug in the library or would like new features added, g
 
 [apidocs]: https://www.twilio.com/docs/api
 
-[libdocs]: https://pkg.go.dev/github.com/twilio/twilio-go?tab=versions
+[libdocs]: https://pkg.go.dev/github.com/NellybettIrahola/twilio-go?tab=versions

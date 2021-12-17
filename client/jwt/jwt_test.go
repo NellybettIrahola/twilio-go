@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	. "github.com/twilio/twilio-go/client/jwt/util"
+	. "github.com/NellybettIrahola/twilio-go/client/jwt/util"
 )
 
 func TestGetHeaders(t *testing.T) {

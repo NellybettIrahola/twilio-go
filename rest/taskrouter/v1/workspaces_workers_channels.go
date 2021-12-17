@@ -18,7 +18,7 @@ import (
 
 	"strings"
 
-	"github.com/twilio/twilio-go/client"
+	"github.com/NellybettIrahola/twilio-go/client"
 )
 
 func (c *ApiService) FetchWorkerChannel(WorkspaceSid string, WorkerSid string, Sid string) (*TaskrouterV1WorkerChannel, error) {

@@ -1,4 +1,4 @@
-module github.com/NellybettIrahola/twilio/twilio-go
+module github.com/NellybettIrahola/twilio-go
 
 go 1.16
 

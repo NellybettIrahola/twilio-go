@@ -18,7 +18,7 @@ import (
 
 	"strings"
 
-	"github.com/twilio/twilio-go/client"
+	"github.com/NellybettIrahola/twilio-go/client"
 )
 
 func (c *ApiService) DeleteUserBinding(ServiceSid string, UserSid string, Sid string) error {

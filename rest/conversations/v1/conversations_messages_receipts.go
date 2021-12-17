@@ -18,7 +18,7 @@ import (
 
 	"strings"
 
-	"github.com/twilio/twilio-go/client"
+	"github.com/NellybettIrahola/twilio-go/client"
 )
 
 // Fetch the delivery and read receipts of the conversation message

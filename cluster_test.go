@@ -7,9 +7,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	ApiV2010 "github.com/twilio/twilio-go/rest/api/v2010"
-	ChatV2 "github.com/twilio/twilio-go/rest/chat/v2"
-	EventsV1 "github.com/twilio/twilio-go/rest/events/v1"
+	ApiV2010 "github.com/NellybettIrahola/twilio-go/rest/api/v2010"
+	ChatV2 "github.com/NellybettIrahola/twilio-go/rest/chat/v2"
+	EventsV1 "github.com/NellybettIrahola/twilio-go/rest/events/v1"
 )
 
 var from string
